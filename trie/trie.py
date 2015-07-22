@@ -2,6 +2,7 @@ __author__ = 'mark'
 
 _end = '_end_'
 
+
 def make_trie(*words):
     root = dict()
     for word in words:
@@ -11,8 +12,5 @@ def make_trie(*words):
         current_dict[_end] = _end
 
     return root
-
-
-
 
 print make_trie('foo', 'bar', 'baz', 'barz')
