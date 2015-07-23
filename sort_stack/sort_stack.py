@@ -1,5 +1,6 @@
 # sort stack
 
+
 def sort_stack(stack):
     stack_temp = []
     while any(stack):
