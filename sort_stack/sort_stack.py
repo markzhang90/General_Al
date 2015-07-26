@@ -15,5 +15,5 @@ def sort_stack(stack):
     return stack_temp
 
 
-stack = [2,3,2,4,6,5,1]
+stack = [2, 3, 2, 4, 6, 5, 1]
 print(sort_stack(stack))

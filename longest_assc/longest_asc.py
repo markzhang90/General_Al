@@ -1,6 +1,7 @@
 __author__ = 'mark'
 
-arr= [1,2,3,2,5,6,7,8,3,2,4,5,2,21,2,3,4,5,6,7,8,9,10]
+arr = [1, 2, 3, 2, 5, 6, 7, 8, 3, 2, 4, 5, 2, 21, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 
 def longest_asc(arr):
     max_leng = 0
@@ -17,5 +18,5 @@ def longest_asc(arr):
             max_leng = leng
     return max_leng
 
-print longest_asc(arr)
 
+print longest_asc(arr)

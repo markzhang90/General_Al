@@ -1,7 +1,7 @@
 __author__ = 'mark'
 # String Break
 
-s = "leetleetcode"
+s = "leeetleetcode"
 dict = ["leet", "code"]
 
 

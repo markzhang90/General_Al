@@ -9,6 +9,7 @@ def subsets(S):
 
 
 def subsets_rec(arr, i, res):
+    print arr
     if i == len(arr):
         res.append([])
     else:
@@ -16,6 +17,7 @@ def subsets_rec(arr, i, res):
         temp = []
         for item in res:
             # if ([arr[i]] + item) not in res: # subsets 2
+
             temp.append([arr[i]] + item)
         res.extend(temp)
 #         res.extend([item + [arr[i]] for item in res])
