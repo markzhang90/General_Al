@@ -25,4 +25,4 @@ res = []
 temp = []
 list = [1, 2, 4, 3, 9]
 combination(list, 2, temp, res, 0)
-print res
+print (res)
